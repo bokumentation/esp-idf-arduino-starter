@@ -41,13 +41,13 @@ Features:
 
 4. Set target MCU, build then flash. Using a standard esp32 as an example.
     ```bash
-        idf.py set-target esp32
+    idf.py set-target esp32
     ```
     ```bash
-        idf.py build
+    idf.py build
     ```
     ```bash
-        idf.py -p <PORT> flash
+    idf.py -p <PORT> flash
     ```
     > Replace `<PORT>` with your ESP32's actual serial port (e.g., `COM3` on Windows or `/dev/ttyUSB0` on Linux). You can find this in device manager.
     >
@@ -55,7 +55,7 @@ Features:
 
 5. Open serial monitor using esp-idf built in feature. The onboard LED will begin blinking.
     ```bash
-        idf.py -p <PORT> monitor
+    idf.py -p <PORT> monitor
     ```
     > If your PC just connected to one ESP's, you can use  without set the target `<PORT>`. Eg. `idf.py monitor`.
 
