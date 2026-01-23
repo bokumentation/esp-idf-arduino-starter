@@ -20,6 +20,7 @@ managed_components/
 extras/
 
 # File
+.clangd
 dependencies.lock
 sdkconfig
 sdkconfig.old
