@@ -1,5 +1,5 @@
 # Clangd configuration for Linux. Based on my Linux username are "loq". The default ESP-IDF v5.5.1 uses clangd-18.
-# Documentation: https://clangd.llvm.org/config
+# Documentation: https://clangd.llvm.org/config, https://docs.espressif.com/projects/espressif-ide/en/latest/additionalfeatures/clangd_cdt_support.html
 
 InlayHints:
     ParameterNames: false

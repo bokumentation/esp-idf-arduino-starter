@@ -7,8 +7,8 @@ There are so many terms, so I tried to make this tutorial as clear as possible f
 
 Features:
 - LSP and code navigation support by `clangd`
-- Code formatting by `clang-format`
-- Pyhton script for removing gcc '-m*' and '-f*' flags from the `compile_commands.json`
+- Code formatting by `clang-format` based on [ESP-IDF Style Guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/contribute/style-guide.html).
+- Pyhton script for removing gcc '-m*' and '-f*' flags from the `compile_commands.json`.
 - EditorConfig configuration for consistency across code editor.
 
 ## Requirements

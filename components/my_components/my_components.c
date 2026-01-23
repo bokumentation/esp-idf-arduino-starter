@@ -15,5 +15,7 @@ void hello_log_init(void)
     // Log the "Hello World" message at the INFO level
     ESP_LOGI(TAG, "Hello from my_components.c using ESP_LOGI");
     ESP_LOGW(TAG, "Hello from my_components.c ESP_LOGE");
-    ESP_LOGD(TAG, "Hello from my_components.c ESP_LOGD"); // Only visible if CONFIG_LOG_DEFAULT_LEVEL is set to DEBUG or VERBOSE
+    ESP_LOGD(
+        TAG,
+        "Hello from my_components.c ESP_LOGD"); // Only visible if CONFIG_LOG_DEFAULT_LEVEL is set to DEBUG or VERBOSE
 }
