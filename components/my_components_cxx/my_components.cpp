@@ -12,12 +12,14 @@ an Example for creating ESP-IDF Components.
 static const char *TAG = "CPP_CLASS";
 
 // Constructor definition
-MyCppClass::MyCppClass(const std::string& name) : instance_name(name) {
+MyCppClass::MyCppClass(const std::string &name) : instance_name(name)
+{
     ESP_LOGI(TAG, "Instance '%s' constructed.", instance_name.c_str());
 }
 
 // Method definition
-void MyCppClass::greet() const {
+void MyCppClass::greet() const
+{
     // Use standard C++ output for demonstration
     std::cout << "C++ Component: Hello, world! I am instance '" << instance_name << "'." << std::endl;
 

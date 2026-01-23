@@ -8,7 +8,7 @@
 
 idf_component_register(
     # Add sources code. We just using the "arduino_style" for the main point.
-    SRCS "arduino_style.cpp"
+    SRCS "main.cpp"
 
     # Uncomment this if wanna use GLOB_RECURSE
     # SRCS ${SOURCES}

@@ -1,5 +1,5 @@
 # Clangd configuration for Windows. Based on "C:\\Espressif" folder instalation. The default ESP-IDF v5.5.1 uses clangd-18.
-# Documentation: https://clangd.llvm.org/config
+# Documentation: https://clangd.llvm.org/config, https://docs.espressif.com/projects/espressif-ide/en/latest/additionalfeatures/clangd_cdt_support.html
 
 InlayHints:
     ParameterNames: false
@@ -14,7 +14,7 @@ Hover:
 CompileFlags:
     CompilationDatabase: build/
     Add:
-        # If this is not work, replace this PATH to your actual "Espressif" folder path
+        # If your tools are in C:/Users/<User>/.espressif, update this path.
         - -isystem
         - "C:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\xtensa-esp-elf\\include"
 
