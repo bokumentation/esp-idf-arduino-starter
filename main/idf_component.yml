@@ -1,0 +1,9 @@
+#
+# IDF Component Manager Manifest File. We are using arduino-esp32 core library as a components
+# Documentation: https://docs.espressif.com/projects/idf-component-manager/en/latest/reference/manifest_file.html
+#
+
+dependencies:
+  idf:
+    version: '>=4.1.0'
+  espressif/arduino-esp32: ^3.3.0

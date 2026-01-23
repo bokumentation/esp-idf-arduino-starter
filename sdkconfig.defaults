@@ -1,0 +1,19 @@
+#
+# This is sdk configuration for using Arduino-esp32
+# Documentation: https://docs.espressif.com/projects/arduino-esp32/en/latest/esp-idf_component.html
+#
+
+# The Arduino component requires the FreeRTOS tick rate CONFIG_FREERTOS_HZ set to 1000 Hz.
+CONFIG_FREERTOS_HZ=1000
+
+# Using void setup() loop() like in Arduino IDE. Disable it if wont use it.
+CONFIG_AUTOSTART_ARDUINO=y
+
+# DIAGNOSTICS
+CONFIG_DIAG_USE_EXTERNAL_LOG_WRAP=y
+
+# mbedTLS
+CONFIG_MBEDTLS_PSK_MODES=y
+CONFIG_MBEDTLS_KEY_EXCHANGE_PSK=y
+CONFIG_MBEDTLS_KEY_EXCHANGE_ECDHE_PSK=y
+CONFIG_MBEDTLS_KEY_EXCHANGE_RSA_PSK=y
