@@ -31,11 +31,10 @@ Features:
     git clone https://github.com/bokumentation/esp-idf-arduino-starter.git
     ```
     ```bash
-    chmod +x setup.sh
-    ./setup.sh
+    cd esp-idf-arduino-starter
     ```
 
-4. Set target MCU, build then flash. Using a standard esp32 as an example.
+3. Set target MCU, build then flash. Using a standard esp32 as an example.
     ```bash
     idf.py set-target esp32
     ```
@@ -49,7 +48,7 @@ Features:
     >
     > Alternative commands: `idf.py build flash`.
 
-5. Open serial monitor using esp-idf built in feature. The onboard LED will begin blinking.
+4. Open serial monitor using esp-idf built in feature. The onboard LED will begin blinking.
     ```bash
     idf.py -p <PORT> monitor
     ```
@@ -112,5 +111,5 @@ extern "C" void app_main()
 
 ---
 
-More information about another tools and workflow
+LSP Settings:
 [docs/TECHNICAL.md](docs/TECHNICAL.md)

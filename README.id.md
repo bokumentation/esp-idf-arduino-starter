@@ -109,5 +109,5 @@ extern "C" void app_main()
 
 ---
 
-Informasi mengenai LSP, Formatter, dll ada di
-[docs/TECHNICAL.md](docs/TECHNICAL.id.md).
+Pengaturan LSP:
+[docs/TECHNICAL.id.md](docs/TECHNICAL.id.md).
