@@ -1,6 +1,6 @@
 # ESP-IDF Arduino Starter
 
-**Available language:** EN | IDN
+**Language:** [EN](README.md) | [ID](README.id.md)
 
 This is my boilerplate for starting ESP-IDF by using `arduino-esp32` as components. Just clone then build.
 There are so many terms, so I tried to make this tutorial as clear as possible for those wanna migrate from an Arduino IDE. Also this is my worksflow.
@@ -24,16 +24,12 @@ Features:
 
 ## Get Started
 
-1. Open ESP-IDF terminal environment, then navigate in your favourite folder (eg. `./projects`).
+1. Open ESP-IDF terminal environment, then navigate in your favourite folder using `cd` command. (eg. `./projects`).
 
 2. Clone this repo then navigate into it.
     ```bash
     git clone https://github.com/bokumentation/esp-idf-arduino-starter.git
-    cd esp-idf-arduino-starter
     ```
-
-3. **Run the Setup Script**:
-    This script configures `clangd` for your OS and installs `pre-commit` hooks.
     ```bash
     chmod +x setup.sh
     ./setup.sh
@@ -113,3 +109,8 @@ extern "C" void app_main()
     // WARNING: If the program reaches the end of app_main(), the MCU will restart.
 }
 ```
+
+---
+
+More information about another tools and workflow
+[docs/TECHNICAL.md](docs/TECHNICAL.md)

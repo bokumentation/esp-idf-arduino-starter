@@ -27,7 +27,6 @@ case "${OS_TYPE}" in
 
     CYGWIN*|MINGW*|MSYS*)
         echo "[OK] Setting up for Windows (Root Installation)..."
-        # Specifically targeting your preference for the C:/Espressif path
         if [ -f "tools/clangd-templates/windows.clangd" ]; then
             cp tools/clangd-templates/windows.clangd .clangd
         else
