@@ -1,4 +1,4 @@
-# Clangd configuration for Windows. Based on "C:\\Espressif" folder instalation. The default ESP-IDF v5.5.1 uses clangd-18.
+# Clangd configuration for Windows. Based on "C:\\Espressif" folder instalation. The default ESP-IDF v5.5.1 uses clangd-19.
 # Documentation: https://clangd.llvm.org/config, https://docs.espressif.com/projects/espressif-ide/en/latest/additionalfeatures/clangd_cdt_support.html
 
 # Render "Doxygen" format. Only works on clangd-22
