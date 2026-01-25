@@ -32,7 +32,7 @@ BraceWrapping:
 
 # --- Constructor Exception ---
 # Allows: SpaceShip::SpaceShip(size_t crew) : crew(crew) { }
-AllowShortFunctionsOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: None
 
 # --- Indentation and Whitespace (AStyle & ESP-IDF) ---
 IndentWidth: 4 # 4-space indentation
@@ -45,7 +45,7 @@ ContinuationIndentWidth: 4
 # --- Alignment (AStyle Options) ---
 DerivePointerAlignment: false
 PointerAlignment: Right # Align reference/pointer to name
-AllowShortBlocksOnASingleLine: true
+AllowShortBlocksOnASingleLine: false
 AllowShortIfStatementsOnASingleLine: true
 
 # --- Horizontal Space (ESP-IDF Rules) ---
