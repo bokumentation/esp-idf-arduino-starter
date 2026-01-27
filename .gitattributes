@@ -1,0 +1,11 @@
+# Handle line endings automatically for files detected as text 
+# and leave binary files alone.
+* text=auto
+
+# Explicitly declare which files should always use LF (Linux style)
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
