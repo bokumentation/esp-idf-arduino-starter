@@ -41,6 +41,7 @@ UseTab: Never # Do not use tabs
 TabWidth: 4
 ColumnLimit: 120 # Max line length 120
 ContinuationIndentWidth: 4
+IndentPPDirectives: BeforeHash # Indents directives after the '#'
 
 # --- Alignment (AStyle Options) ---
 DerivePointerAlignment: false
