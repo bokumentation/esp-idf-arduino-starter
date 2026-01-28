@@ -1,0 +1,7 @@
+{
+    "clangd.path": "clangd-22",
+    "clangd.arguments": [
+        "--query-driver=/home/loq/.espressif/tools/xtensa-esp-elf/**/*",
+        "--query-driver=/home/loq/.espressif/tools/riscv32-esp-elf/**/*"
+    ]
+}
