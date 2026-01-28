@@ -7,4 +7,3 @@ dependencies:
   idf:
     version: '>=4.1.0'
   espressif/arduino-esp32: ^3.3.0
-  espressif/led_strip: "^3.0.0"
