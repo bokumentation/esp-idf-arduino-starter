@@ -1,20 +1,12 @@
 /**
  * @file main.cpp
  * @brief Main entry point using Arduino-style setup() and loop().
- *
- * This is example for blinking LED ESP32 DEVKIT (GPIO 2) and ESP32C3 SUPERMINI (GPIO 8).
  */
 
 #include "Arduino.h"
-#include "my_components.h" // Use our custom library/components
-#include "sdkconfig.h"
+#include "my_components.h"
 
-#ifdef CONFIG_IDF_TARGET_ESP32
-const int LED_PIN = 2;
-#elif CONFIG_IDF_TARGET_ESP32C3
-const int LED_PIN = 8;
-#endif
-
+const int LED_PIN = 2; // Use pin GPIO 2 for OUTPUT
 static const char *TAG = "EXAMPLE";
 
 void setup()
