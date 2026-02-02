@@ -17,7 +17,7 @@ Thumbs.db
 backup/
 build/
 managed_components/
-extras/
+# extras/
 
 # File
 /.clangd
