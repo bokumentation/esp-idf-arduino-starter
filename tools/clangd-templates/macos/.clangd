@@ -12,7 +12,7 @@ Hover:
     ShowAKA: false
 
 CompileFlags:
-    # Using QueryDriver for llvm clangd-22. Uncomment if not use esp-clangd.
+    # Using QueryDriver for llvm clangd-22.
     # BuiltinHeaders: QueryDriver
 
     CompilationDatabase: build/
