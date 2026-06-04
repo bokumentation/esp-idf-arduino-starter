@@ -10,7 +10,7 @@ Thumbs.db
 
 # Editor
 /.cache/
-/.vscode/
+# /.vscode/
 /.zed
 
 # Folder
@@ -20,7 +20,7 @@ managed_components/
 extras/
 
 # File
-/.clangd
+# /.clangd
 dependencies.lock
 sdkconfig
 sdkconfig.old
