@@ -4,5 +4,21 @@
         "--query-driver=${userHome}/.espressif/tools/**/*elf/bin/*",
         "--background-index",
         "--log=verbose"
-    ]
+    ],
+    "windows": {
+        "clangd.path": "clangd.exe",
+        "clangd.arguments": [
+            "--query-driver=${userHome}/.espressif/tools/**/*elf/bin/*",
+            "--background-index",
+            "--log=verbose"
+        ]
+    },
+    "linux": {
+        "clangd.path": "clangd-22",
+        "clangd.arguments": [
+            "--query-driver=${userHome}/.espressif/tools/**/*elf/bin/*",
+            "--background-index",
+            "--log=verbose"
+        ]
+    }
 }
